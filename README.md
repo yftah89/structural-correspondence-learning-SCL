@@ -3,11 +3,18 @@ This is a code repository used to generate the SCL's results appearing in [Neura
 
 The SCL algorithm original paper can be found [here](http://john.blitzer.com/papers/emnlp06.pdf).
 
-If you use this implementation in your article, please [cite](https://scholar.googleusercontent.com/scholar.bib?q=info:Yx8aXGO5-S4J:scholar.google.com/&output=citation&scisig=AAGBfm0AAAAAWfu7n6Rd5ZXgGBPFTcbVqaCGO27Z7n5p&scisf=4&ct=citation&cd=-1&hl=iw) :)
-
+If you use this implementation in your article, please cite :)
+```bib
+@article{ziser2016neural,
+  title={Neural Structural Correspondence Learning for Domain Adaptation},
+  author={Ziser, Yftah and Reichart, Roi},
+  journal={arXiv preprint arXiv:1610.01588},
+  year={2016}
+}
+```
 You can find detailed instructions for the SCL model in run.py : 
 
-```python
+```
 import tr
 import sentiment
 if __name__ == '__main__':
