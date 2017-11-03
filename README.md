@@ -5,11 +5,12 @@ The SCL algorithm original paper can be found [here](http://john.blitzer.com/pap
 
 If you use this implementation in your article, please cite :)
 ```bib
-@article{ziser2016neural,
-  title={Neural Structural Correspondence Learning for Domain Adaptation},
-  author={Ziser, Yftah and Reichart, Roi},
-  journal={arXiv preprint arXiv:1610.01588},
-  year={2016}
+@InProceedings{ziser-reichart:2017:CoNLL,
+  author    = {Ziser, Yftah  and  Reichart, Roi},
+  title     = {Neural Structural Correspondence Learning for Domain Adaptation},
+  booktitle = {Proceedings of the 21st Conference on Computational Natural Language Learning (CoNLL 2017)},
+  year      = {2017},  
+  pages     = {400--410},	
 }
 ```
 ## Prerequisites
