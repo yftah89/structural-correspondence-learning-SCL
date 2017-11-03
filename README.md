@@ -12,7 +12,19 @@ If you use this implementation in your article, please cite :)
   year={2016}
 }
 ```
-You can find detailed instructions for the SCL model in run.py : 
+## Prerequisites
+SCL requires the following packages:
+
+Python >= 2.7
+
+numpy
+
+scipy
+
+scikit-learn
+
+## Example
+You can find an explained example in run.py: 
 
 ```
 import tr
