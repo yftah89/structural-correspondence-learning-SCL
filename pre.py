@@ -115,7 +115,7 @@ def preproc(pivot_num,pivot_min_st,src,dest):
     bigram_vectorizer_target = CountVectorizer(ngram_range=(1, 2), token_pattern=r'\b\w+\b', min_df=20, binary=True)
     X_2_train_target = bigram_vectorizer_target.fit_transform(target).toarray()
 
-    MIsorted,RMI=GetTopNMI(2000,CountVectorizer,X_2_train,train_target)
+    MIsorted,RMI=GetTopNMI(5000,CountVectorizer,X_2_train,train_target)
     MIsorted.reverse()
     c=0
     i=0
@@ -129,8 +129,7 @@ def preproc(pivot_num,pivot_min_st,src,dest):
             names.append(name)
             pivotsCounts.append(bigram_vectorizer_unlabeled.get_feature_names().index(name))
             c+=1
-         #   if(c<100):
-              #  print "feature is ",name," it MI is ",RMI[MIsorted[i]]," in source ",s_count," in target ",t_count
+            print "feature is ",name," it MI is ",RMI[MIsorted[i]]," in source ",s_count," in target ",t_count
         i+=1
 
 
