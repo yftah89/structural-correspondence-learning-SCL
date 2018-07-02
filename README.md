@@ -1,5 +1,5 @@
 # Domain Adaptation with Structural Correspondence Learning.
-This is a code repository used to generate the SCL's results appearing in [Neural Structural Correspondence Learning for Domain Adaptation](https://www.aclweb.org/anthology/K/K17/K17-1040.pdf).
+This is a code repository used to generate the SCL's results appearing in [Neural Structural Correspondence Learning for Domain Adaptation](https://www.aclweb.org/anthology/K/K17/K17-1040.pdf) and [Pivot Based Language Modeling for Improved Neural Domain Adaptation](http://www.aclweb.org/anthology/N18-1112).
 
 The SCL algorithm original paper can be found [here](http://john.blitzer.com/papers/emnlp06.pdf).
 
